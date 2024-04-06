@@ -1,0 +1,178 @@
+2024-03-19 11:36:20,347 DEBUG cd frappe-bench && python3 -m venv env
+2024-03-19 11:36:23,353 DEBUG cd frappe-bench && /home/karthic/frappe/frappe-bench/env/bin/python -m pip install --quiet --upgrade pip
+2024-03-19 11:36:29,386 DEBUG cd frappe-bench && /home/karthic/frappe/frappe-bench/env/bin/python -m pip install --quiet wheel
+2024-03-19 11:36:30,300 LOG Getting frappe
+2024-03-19 11:36:30,300 DEBUG cd frappe-bench/apps && git clone https://github.com/frappe/frappe.git  --depth 1 --origin upstream
+2024-03-19 11:37:00,715 LOG Installing frappe
+2024-03-19 11:37:00,715 DEBUG cd /home/karthic/frappe/frappe-bench && /home/karthic/frappe/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/karthic/frappe/frappe-bench/apps/frappe 
+2024-03-19 11:38:43,365 DEBUG cd /home/karthic/frappe/frappe-bench/apps/frappe && yarn install --check-files
+2024-03-19 11:39:04,382 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-03-19 11:39:04,382 DEBUG cd frappe-bench && bench build
+2024-03-19 11:39:04,511 INFO /home/karthic/.local/bin/bench build
+2024-03-19 11:39:25,723 LOG setting up backups
+2024-03-19 11:39:25,744 LOG backups were set up
+2024-03-19 11:39:25,744 INFO Bench frappe-bench initialized
+2024-03-19 11:39:37,790 INFO /home/karthic/.local/bin/bench status
+2024-03-19 11:39:47,744 INFO /home/karthic/.local/bin/bench app-list
+2024-03-19 11:39:50,986 INFO /home/karthic/.local/bin/bench list-apps
+2024-03-19 11:40:03,505 INFO /home/karthic/.local/bin/bench new-site gopi
+2024-03-19 11:41:19,790 INFO /home/karthic/.local/bin/bench use gopi
+2024-03-19 11:41:25,035 INFO /home/karthic/.local/bin/bench start
+2024-03-19 11:41:25,362 INFO /home/karthic/.local/bin/bench schedule
+2024-03-19 11:41:25,387 INFO /home/karthic/.local/bin/bench watch
+2024-03-19 11:41:25,391 INFO /home/karthic/.local/bin/bench serve --port 8000
+2024-03-19 11:41:25,429 INFO /home/karthic/.local/bin/bench worker
+2024-03-19 12:00:01,533 INFO /home/karthic/.local/bin/bench --verbose --site all backup
+2024-03-27 21:00:26,012 INFO /home/karthic/.local/bin/bench start
+2024-03-27 21:00:26,306 INFO /home/karthic/.local/bin/bench serve --port 8000
+2024-03-27 21:00:26,309 INFO /home/karthic/.local/bin/bench watch
+2024-03-27 21:00:26,309 INFO /home/karthic/.local/bin/bench worker
+2024-03-27 21:00:26,311 INFO /home/karthic/.local/bin/bench schedule
+2024-03-27 15:32:38,583 INFO /home/karthic/.local/bin/bench start
+2024-03-27 15:32:38,863 INFO /home/karthic/.local/bin/bench watch
+2024-03-27 15:32:38,871 INFO /home/karthic/.local/bin/bench schedule
+2024-03-27 15:32:38,908 INFO /home/karthic/.local/bin/bench serve --port 8000
+2024-03-27 15:32:38,910 INFO /home/karthic/.local/bin/bench worker
+2024-04-03 12:00:01,796 INFO /home/karthic/.local/bin/bench --verbose --site all backup
+2024-04-03 12:01:01,438 INFO /home/karthic/.local/bin/bench start
+2024-04-03 12:01:01,816 INFO /home/karthic/.local/bin/bench watch
+2024-04-03 12:01:01,822 INFO /home/karthic/.local/bin/bench serve --port 8000
+2024-04-03 12:01:01,856 INFO /home/karthic/.local/bin/bench worker
+2024-04-03 12:01:01,860 INFO /home/karthic/.local/bin/bench schedule
+2024-04-03 12:04:40,269 INFO /home/karthic/.local/bin/bench start
+2024-04-03 12:04:40,495 INFO /home/karthic/.local/bin/bench watch
+2024-04-03 12:04:40,518 INFO /home/karthic/.local/bin/bench worker
+2024-04-03 12:04:40,536 INFO /home/karthic/.local/bin/bench serve --port 8000
+2024-04-03 12:04:40,537 INFO /home/karthic/.local/bin/bench schedule
+2024-04-03 12:17:55,959 INFO /home/karthic/.local/bin/bench site -h
+2024-04-03 12:18:13,220 INFO /home/karthic/.local/bin/bench new-site -h
+2024-04-03 12:19:08,098 INFO /home/karthic/.local/bin/bench new-site karthic
+2024-04-03 12:20:41,567 INFO /home/karthic/.local/bin/bench start
+2024-04-03 12:20:41,740 INFO /home/karthic/.local/bin/bench worker
+2024-04-03 12:20:41,740 INFO /home/karthic/.local/bin/bench schedule
+2024-04-03 12:20:41,742 INFO /home/karthic/.local/bin/bench watch
+2024-04-03 12:20:41,780 INFO /home/karthic/.local/bin/bench serve --port 8000
+2024-04-03 12:45:52,608 INFO /home/karthic/.local/bin/bench use karthic
+2024-04-03 12:46:18,031 INFO /home/karthic/.local/bin/bench start
+2024-04-03 12:46:18,244 INFO /home/karthic/.local/bin/bench serve --port 8000
+2024-04-03 12:46:18,245 INFO /home/karthic/.local/bin/bench schedule
+2024-04-03 12:46:18,247 INFO /home/karthic/.local/bin/bench watch
+2024-04-03 12:46:18,253 INFO /home/karthic/.local/bin/bench worker
+2024-04-03 12:52:53,931 INFO /home/karthic/.local/bin/bench start
+2024-04-03 12:52:54,111 INFO /home/karthic/.local/bin/bench worker
+2024-04-03 12:52:54,117 INFO /home/karthic/.local/bin/bench schedule
+2024-04-03 12:52:54,152 INFO /home/karthic/.local/bin/bench watch
+2024-04-03 12:52:54,152 INFO /home/karthic/.local/bin/bench serve --port 8000
+2024-04-03 12:53:49,309 INFO /home/karthic/.local/bin/bench start
+2024-04-03 12:53:49,481 INFO /home/karthic/.local/bin/bench serve --port 8000
+2024-04-03 12:53:49,484 INFO /home/karthic/.local/bin/bench schedule
+2024-04-03 12:53:49,529 INFO /home/karthic/.local/bin/bench worker
+2024-04-03 12:53:49,529 INFO /home/karthic/.local/bin/bench watch
+2024-04-03 12:56:45,011 INFO /home/karthic/.local/bin/bench site karthic --add-to-host
+2024-04-03 12:57:12,482 INFO /home/karthic/.local/bin/bench --site karthic add-to-host
+2024-04-03 12:57:17,416 INFO /home/karthic/.local/bin/bench --site karthic add-to-hosts
+2024-04-03 12:57:38,949 INFO /home/karthic/.local/bin/bench start
+2024-04-03 12:57:39,122 INFO /home/karthic/.local/bin/bench watch
+2024-04-03 12:57:39,127 INFO /home/karthic/.local/bin/bench serve --port 8000
+2024-04-03 12:57:39,164 INFO /home/karthic/.local/bin/bench worker
+2024-04-03 12:57:39,168 INFO /home/karthic/.local/bin/bench schedule
+2024-04-03 21:13:35,969 INFO /home/karthic/.local/bin/bench start
+2024-04-03 21:13:36,262 INFO /home/karthic/.local/bin/bench watch
+2024-04-03 21:13:36,263 INFO /home/karthic/.local/bin/bench serve --port 8000
+2024-04-03 21:13:36,298 INFO /home/karthic/.local/bin/bench schedule
+2024-04-03 21:13:36,298 INFO /home/karthic/.local/bin/bench worker
+2024-04-03 21:15:50,668 INFO /home/karthic/.local/bin/bench start
+2024-04-03 21:15:50,860 INFO /home/karthic/.local/bin/bench serve --port 8000
+2024-04-03 21:15:50,860 INFO /home/karthic/.local/bin/bench worker
+2024-04-03 21:15:50,885 INFO /home/karthic/.local/bin/bench schedule
+2024-04-03 21:15:50,890 INFO /home/karthic/.local/bin/bench watch
+2024-04-04 11:57:34,450 INFO /home/karthic/.local/bin/bench start
+2024-04-04 11:57:34,739 INFO /home/karthic/.local/bin/bench watch
+2024-04-04 11:57:34,739 INFO /home/karthic/.local/bin/bench worker
+2024-04-04 11:57:34,739 INFO /home/karthic/.local/bin/bench serve --port 8000
+2024-04-04 11:57:34,745 INFO /home/karthic/.local/bin/bench schedule
+2024-04-04 11:58:07,280 INFO /home/karthic/.local/bin/bench start
+2024-04-04 11:58:07,463 INFO /home/karthic/.local/bin/bench watch
+2024-04-04 11:58:07,469 INFO /home/karthic/.local/bin/bench serve --port 8000
+2024-04-04 11:58:07,512 INFO /home/karthic/.local/bin/bench schedule
+2024-04-04 11:58:07,516 INFO /home/karthic/.local/bin/bench worker
+2024-04-04 12:00:01,149 INFO /home/karthic/.local/bin/bench --verbose --site all backup
+2024-04-04 12:08:32,346 INFO /home/karthic/.local/bin/bench find .
+2024-04-04 12:09:04,445 INFO /home/karthic/.local/bin/bench new-app management
+2024-04-04 12:09:04,448 LOG creating new app management
+2024-04-04 12:09:59,760 LOG Installing management
+2024-04-04 12:09:59,761 DEBUG cd /home/karthic/frappe/frappe-bench && /home/karthic/frappe/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/karthic/frappe/frappe-bench/apps/management 
+2024-04-04 12:10:01,816 DEBUG bench build --app management
+2024-04-04 12:10:01,883 INFO /home/karthic/.local/bin/bench build --app management
+2024-04-04 12:10:02,284 WARNING bench build --app management executed with exit code 1
+2024-04-04 12:10:02,285 WARNING /home/karthic/.local/bin/bench new-app management executed with exit code 1
+2024-04-04 12:10:06,799 INFO /home/karthic/.local/bin/bench find .
+2024-04-04 12:10:47,399 INFO /home/karthic/.local/bin/bench start
+2024-04-04 12:10:47,588 INFO /home/karthic/.local/bin/bench watch
+2024-04-04 12:10:47,611 INFO /home/karthic/.local/bin/bench worker
+2024-04-04 12:10:47,632 INFO /home/karthic/.local/bin/bench serve --port 8000
+2024-04-04 12:10:47,636 INFO /home/karthic/.local/bin/bench schedule
+2024-04-04 12:13:13,564 INFO /home/karthic/.local/bin/bench install-app management
+2024-04-04 12:13:39,389 INFO /home/karthic/.local/bin/bench --site karthic add-to-host install-app management
+2024-04-04 12:13:47,583 INFO /home/karthic/.local/bin/bench --site karthic add-to-hosts install-app management
+2024-04-04 12:14:36,266 INFO /home/karthic/.local/bin/bench --site karthic install-app management
+2024-04-04 12:14:42,414 INFO /home/karthic/.local/bin/bench start
+2024-04-04 12:14:42,690 INFO /home/karthic/.local/bin/bench watch
+2024-04-04 12:14:42,693 INFO /home/karthic/.local/bin/bench serve --port 8000
+2024-04-04 12:14:42,733 INFO /home/karthic/.local/bin/bench worker
+2024-04-04 12:14:42,738 INFO /home/karthic/.local/bin/bench schedule
+2024-04-04 13:37:23,942 INFO /home/karthic/.local/bin/bench --site karthic mariadb
+2024-04-05 11:28:42,474 INFO /home/karthic/.local/bin/bench start
+2024-04-05 11:28:42,761 INFO /home/karthic/.local/bin/bench schedule
+2024-04-05 11:28:42,762 INFO /home/karthic/.local/bin/bench serve --port 8000
+2024-04-05 11:28:42,764 INFO /home/karthic/.local/bin/bench watch
+2024-04-05 11:28:42,767 INFO /home/karthic/.local/bin/bench worker
+2024-04-05 11:29:24,279 INFO /home/karthic/.local/bin/bench start
+2024-04-05 11:29:24,458 INFO /home/karthic/.local/bin/bench serve --port 8000
+2024-04-05 11:29:24,459 INFO /home/karthic/.local/bin/bench watch
+2024-04-05 11:29:24,462 INFO /home/karthic/.local/bin/bench schedule
+2024-04-05 11:29:24,512 INFO /home/karthic/.local/bin/bench worker
+2024-04-05 11:50:46,940 INFO /home/karthic/.local/bin/bench --site karthic set-config developer-mode 1
+2024-04-05 12:00:01,925 INFO /home/karthic/.local/bin/bench --verbose --site all backup
+2024-04-05 12:04:35,411 INFO /home/karthic/.local/bin/bench start
+2024-04-05 12:04:35,601 INFO /home/karthic/.local/bin/bench watch
+2024-04-05 12:04:35,602 INFO /home/karthic/.local/bin/bench serve --port 8000
+2024-04-05 12:04:35,607 INFO /home/karthic/.local/bin/bench worker
+2024-04-05 12:04:35,650 INFO /home/karthic/.local/bin/bench schedule
+2024-04-05 20:05:28,742 INFO /home/karthic/.local/bin/bench start
+2024-04-05 20:05:29,027 INFO /home/karthic/.local/bin/bench serve --port 8000
+2024-04-05 20:05:29,029 INFO /home/karthic/.local/bin/bench watch
+2024-04-05 20:05:29,043 INFO /home/karthic/.local/bin/bench schedule
+2024-04-05 20:05:29,043 INFO /home/karthic/.local/bin/bench worker
+2024-04-05 20:06:03,680 INFO /home/karthic/.local/bin/bench start
+2024-04-05 20:06:03,863 INFO /home/karthic/.local/bin/bench watch
+2024-04-05 20:06:03,872 INFO /home/karthic/.local/bin/bench worker
+2024-04-05 20:06:03,879 INFO /home/karthic/.local/bin/bench schedule
+2024-04-05 20:06:03,888 INFO /home/karthic/.local/bin/bench serve --port 8000
+2024-04-05 20:40:54,116 INFO /home/karthic/.local/bin/bench --site karthic console --autoreload
+2024-04-05 21:25:18,907 INFO /home/karthic/.local/bin/bench set-config -g server_script_enabled 1
+2024-04-06 13:13:25,029 INFO /home/karthic/.local/bin/bench start
+2024-04-06 13:13:25,328 INFO /home/karthic/.local/bin/bench schedule
+2024-04-06 13:13:25,328 INFO /home/karthic/.local/bin/bench serve --port 8000
+2024-04-06 13:13:25,358 INFO /home/karthic/.local/bin/bench watch
+2024-04-06 13:13:25,358 INFO /home/karthic/.local/bin/bench worker
+2024-04-06 13:28:06,299 INFO /home/karthic/.local/bin/bench --site karthic migrate
+2024-04-06 13:28:27,861 INFO /home/karthic/.local/bin/bench migrate
+2024-04-06 20:27:05,566 INFO /home/karthic/.local/bin/bench start
+2024-04-06 20:27:05,845 INFO /home/karthic/.local/bin/bench serve --port 8000
+2024-04-06 20:27:05,845 INFO /home/karthic/.local/bin/bench worker
+2024-04-06 20:27:05,848 INFO /home/karthic/.local/bin/bench schedule
+2024-04-06 20:27:05,849 INFO /home/karthic/.local/bin/bench watch
+2024-04-06 20:41:48,491 INFO /home/karthic/.local/bin/bench --site karthic migrate
+2024-04-06 20:48:24,333 INFO /home/karthic/.local/bin/bench --site karthic migrate
+2024-04-06 20:49:13,916 INFO /home/karthic/.local/bin/bench --site karthic migrate
+2024-04-06 20:49:34,030 INFO /home/karthic/.local/bin/bench --site karthic migrate
+2024-04-06 20:56:23,795 INFO /home/karthic/.local/bin/bench --site karthic migrate
+2024-04-06 20:56:40,021 INFO /home/karthic/.local/bin/bench --site karthic migrate
+2024-04-06 21:01:09,416 INFO /home/karthic/.local/bin/bench --site karthic migrate
+2024-04-06 21:01:25,469 INFO /home/karthic/.local/bin/bench --site karthic migrate
+2024-04-06 21:03:34,401 INFO /home/karthic/.local/bin/bench --site karthic migrate
+2024-04-06 21:04:10,655 INFO /home/karthic/.local/bin/bench --site karthic migrate
+2024-04-06 21:05:37,309 INFO /home/karthic/.local/bin/bench --site karthic migrate
+2024-04-06 21:06:48,429 INFO /home/karthic/.local/bin/bench --site karthic console --autoreload
+2024-04-06 21:12:26,627 INFO /home/karthic/.local/bin/bench --site karthic migrate

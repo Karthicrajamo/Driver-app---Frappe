@@ -1,0 +1,33 @@
+2024-04-05 21:25:10,971 INFO ipython === bench console session ===
+2024-04-05 21:25:10,972 INFO ipython ls
+2024-04-05 21:25:10,972 INFO ipython frappe.db.get_value("Driver")
+2024-04-05 21:25:10,972 INFO ipython frappe.db.get_value("Driver","DL-001","full_name")
+2024-04-05 21:25:10,972 INFO ipython frappe.db.get_value("Driver","DL-001","first_name")
+2024-04-05 21:25:10,972 INFO ipython frappe.db.get_value("Driver","full_name")
+2024-04-05 21:25:10,972 INFO ipython  d = frappe.db.get_value("Driver","DL-004")
+2024-04-05 21:25:10,972 INFO ipython d
+2024-04-05 21:25:10,972 INFO ipython d.first_name
+2024-04-05 21:25:10,972 INFO ipython d.first_name
+2024-04-05 21:25:10,972 INFO ipython d
+2024-04-05 21:25:10,972 INFO ipython d.first_name
+2024-04-05 21:25:10,972 INFO ipython d = frappe.get_doc("Driver")
+2024-04-05 21:25:10,972 INFO ipython d = frappe.get_doc("Driver","DL-004")
+2024-04-05 21:25:10,972 INFO ipython d
+2024-04-05 21:25:10,972 INFO ipython d.
+2024-04-05 21:25:10,972 INFO ipython d.first_name
+2024-04-05 21:25:10,972 INFO ipython d.creation
+2024-04-05 21:25:10,972 INFO ipython d.owner
+2024-04-05 21:25:10,972 INFO ipython d = frappe.new_doc("Driver")
+2024-04-05 21:25:10,973 INFO ipython d.first_name = "John"
+2024-04-05 21:25:10,973 INFO ipython d.last_name  = "Snow"
+2024-04-05 21:25:10,973 INFO ipython d.full_name
+2024-04-05 21:25:10,973 INFO ipython d.save()
+2024-04-05 21:25:10,973 INFO ipython d.license_number = "ds342"
+2024-04-05 21:25:10,973 INFO ipython d.save()
+2024-04-05 21:25:10,973 INFO ipython d.licence_number = "ds342"
+2024-04-05 21:25:10,973 INFO ipython d.save()
+2024-04-05 21:25:10,973 INFO ipython d.full_name
+2024-04-05 21:25:10,973 INFO ipython frappe.db.commit()
+2024-04-05 21:25:10,973 INFO ipython frappe.get_doc({"doctype":"Driver"}).insert()
+2024-04-05 21:25:10,973 INFO ipython d.send_message()
+2024-04-05 21:25:10,973 INFO ipython === session end ===

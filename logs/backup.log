@@ -1,0 +1,38 @@
+set -o pipefail; /usr/bin/mariadb-dump --user=_5c22c2d4132bc50c --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _5c22c2d4132bc50c | /usr/bin/gzip >> ./gopi/private/backups/20240319_120001-gopi-database.sql.gz
+
+Backup Summary for gopi at 2024-03-19 12:00:01.944201
+Config  : /home/karthic/frappe/frappe-bench/sites/gopi/private/backups/20240319_120001-gopi-site_config_backup.json 127.0B
+Database: /home/karthic/frappe/frappe-bench/sites/gopi/private/backups/20240319_120001-gopi-database.sql.gz 213.4KiB
+Backup for Site gopi has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_5c22c2d4132bc50c --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _5c22c2d4132bc50c | /usr/bin/gzip >> ./gopi/private/backups/20240403_120002-gopi-database.sql.gz
+
+Backup Summary for gopi at 2024-04-03 12:00:02.776935
+Config  : /home/karthic/frappe/frappe-bench/sites/gopi/private/backups/20240403_120002-gopi-site_config_backup.json 127.0B
+Database: /home/karthic/frappe/frappe-bench/sites/gopi/private/backups/20240403_120002-gopi-database.sql.gz 220.1KiB
+Backup for Site gopi has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_5c22c2d4132bc50c --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _5c22c2d4132bc50c | /usr/bin/gzip >> ./gopi/private/backups/20240404_120001-gopi-database.sql.gz
+
+Backup Summary for gopi at 2024-04-04 12:00:02.014985
+Config  : /home/karthic/frappe/frappe-bench/sites/gopi/private/backups/20240404_120001-gopi-site_config_backup.json 127.0B
+Database: /home/karthic/frappe/frappe-bench/sites/gopi/private/backups/20240404_120001-gopi-database.sql.gz 224.3KiB
+Backup for Site gopi has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_456005a867e55419 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _456005a867e55419 | /usr/bin/gzip >> ./karthic/private/backups/20240404_120002-karthic-database.sql.gz
+
+Backup Summary for karthic at 2024-04-04 12:00:02.236722
+Config  : /home/karthic/frappe/frappe-bench/sites/karthic/private/backups/20240404_120002-karthic-site_config_backup.json 127.0B
+Database: /home/karthic/frappe/frappe-bench/sites/karthic/private/backups/20240404_120002-karthic-database.sql.gz 224.2KiB
+Backup for Site karthic has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_5c22c2d4132bc50c --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _5c22c2d4132bc50c | /usr/bin/gzip >> ./gopi/private/backups/20240405_120002-gopi-database.sql.gz
+
+Backup Summary for gopi at 2024-04-05 12:00:02.385614
+Config  : /home/karthic/frappe/frappe-bench/sites/gopi/private/backups/20240405_120002-gopi-site_config_backup.json 127.0B
+Database: /home/karthic/frappe/frappe-bench/sites/gopi/private/backups/20240405_120002-gopi-database.sql.gz 227.0KiB
+Backup for Site gopi has been successfully completed
+File ./karthic/private/backups/20240404_120002-karthic-site_config_backup.json is older than 24 hours
+File ./karthic/private/backups/20240404_120002-karthic-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_456005a867e55419 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _456005a867e55419 | /usr/bin/gzip >> ./karthic/private/backups/20240405_120002-karthic-database.sql.gz
+
+Backup Summary for karthic at 2024-04-05 12:00:02.594131
+Config  : /home/karthic/frappe/frappe-bench/sites/karthic/private/backups/20240405_120002-karthic-site_config_backup.json 150.0B
+Database: /home/karthic/frappe/frappe-bench/sites/karthic/private/backups/20240405_120002-karthic-database.sql.gz 231.2KiB
+Backup for Site karthic has been successfully completed
